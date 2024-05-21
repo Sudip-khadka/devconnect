@@ -9,6 +9,7 @@ const Navbar = ()=>{
                 <li>About</li>
                 <li>Community</li>
                 <li>Discuss</li>
+                <li>Contests</li>
             </div>
             <div className="profile">
                 <h3>Profile/Login</h3>

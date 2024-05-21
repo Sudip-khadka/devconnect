@@ -1,0 +1,45 @@
+@import url('https://cdn-uicons.flaticon.com/2.3.0/uicons-brands/css/uicons-brands.css');
+.footer{
+    color:white;
+    background-color: #666666;
+}
+.top{
+    display:flex;
+    justify-content: space-around;
+}
+.brand{
+    width: 20%;
+}
+.author{
+    display:flex;
+    margin:auto;
+    justify-content: center;
+}
+.socials {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Adds space between the social links */
+}
+.socials>a, .social>a{
+    color:bisque;
+    text-decoration: none;
+}
+.social {
+    display: flex;
+    align-items: center; /* Ensures icon and text are vertically aligned */
+    gap: 8px; /* Adds space between icon and text */
+}
+
+.social i {
+    font-size: 24px; /* Adjust the icon size if needed */
+}
+
+.social p {
+    margin: 0; /* Removes default margin from paragraph */
+    margin-top:-5px;
+    font-size: 16px; /* Adjust text size if needed */
+}
+ul>li{
+    margin: 5px 0px;
+    font-size: 18px;
+}
