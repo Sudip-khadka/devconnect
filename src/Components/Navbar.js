@@ -1,9 +1,12 @@
 import React from 'react'
 
+
 const Navbar = ()=>{
     return(
         <nav className="navbar">
-            <div className="logo"><h3>DevConnect</h3></div>
+            <div className="logo">
+                <img src="./Images/DevConnect__1_-removebg-preview.png" alt="logo"/>
+                <h3>DevConnect</h3></div>
             <div className="links">
                 <li>Home</li>
                 <li>About</li>
